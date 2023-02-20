@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.nav-container{
+    display: flex;
+    position: sticky;
+    width: 100%;
+    height: 56px;
+}
+
+.nav-container .logo{
+    margin-left: 140px;
+    width: auto;
+    max-height: 100%;
+    padding: 7px;
+    display: block;
+}
+
+.nav-container .logo .img img{
+    width: 100px;
+}
+
+.nav-container .logo .explore{
+    font-size: 12px
+}
+
+.nav-container .logo .explore a img{
+    height: 15px;
+    width: auto;
+}
+
+.nav-container .Search{
+    padding: 7px;
+    width: 640px;
+}
+
+.nav-container .Search input{
+    width: 600px;
+    outline: none;
+}
+
+.nav-container .login{
+    margin-left: 180px;
+    padding: 10px;
+
+}
+
+.nav-container .login button{
+    padding: 5px 40px;
+    font-weight: 500;
+
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+  }
+
+  .dropdown-toggle::after {
+    display: none;
+}
