@@ -29,52 +29,70 @@
 
 <body>
     <header>
-        <div class="nav-container align-content-center d-flex bg-primary">
-            <div class="logo">
-                <div class="img"><img class="align-items-center d-block" src="./Assets/img/asset 0.png" alt=""></div>
-                <div class="explore fst-italic"><a href="#" class="text-white text-decoration-none">Explore<span
-                            class="text-warning m-lg-1">Plus</span><img src="./Assets/img/asset 1.png" alt=""></a></div>
-            </div>
-            <div class="Search  d-flex align-items-center border-0 m-2 bg-white">
-                <input type="text" class="border-0 rounded-1 p-2" placeholder="Search for Products , brands and more">
-                <button class="btn bg-white border-0" type="submit"><img src="./Assets/img/asset 66.svg"
-                        alt=""></button>
-            </div>
-            <div class="login align-content-center d-flex">
-                <button class="btn bg-white border-0 rounded-0 text-primary" type="submit">Login</button>
-            </div>
-            <nav class="navbar navbar-expand-lg">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    
-                </button>
-
-                <div class="collapse navbar-collapse ms-5" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
+        <nav class="navbar navbar-expand-lg ms-4">
+            <div class="container-fluid">
+                <div class="logo ">
+                    <div class="img"><img class="align-items-center d-block" src="./Assets/img/asset 0.png" alt="">
+                    </div>
+                    <div class="explore fst-italic"><a href="#" class="text-white text-decoration-none">Explore<span
+                                class="text-warning m-lg-1">Plus</span><img src="./Assets/img/asset 1.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="Search  d-flex align-items-center border-0 m-2 bg-white ms-3">
+                    <input type="text" class="border-0 rounded-1 p-2"
+                        placeholder="Search for Products , brands and more">
+                    <button class="btn bg-white border-0" type="submit"><img src="./Assets/img/asset 66.svg"
+                            alt=""></button>
+                </div>
+                <!-- <div class="login align-content-center d-flex">
+                    <button class="btn bg-white border-0 rounded-0 text-primary" type="submit">Login</button>
+                </div> -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                <div class="collapse navbar-collapse ms-5" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item login">
+                            <button class="btn bg-white border-0 rounded-0 text-primary" type="submit">Login</button>
+                        </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink"
-                                role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle text-white mt-2 ms-4" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
                                 More<i class="fa-solid fa-angle-down ms-2"></i>
                             </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item " href="#"><i class="fa-solid fa-bell text-primary"></i><span class="ms-4">Notification Preference</span></a>
-                                <hr class="hr" />
-                                <a class="dropdown-item" href="#"><i class="fa-solid fa-clipboard-question text-primary"></i><span class="ms-4">24x7 Customer Care</span></a>
-                                <hr class="hr" />
-                                <a class="dropdown-item" href="#"><i class="fa-solid fa-chart-line text-primary"></i><span class="ms-4">Advertise</span></a>
-                                <hr class="hr" />
-                                <a class="dropdown-item" href="#"><i class="fa-solid fa-download text-primary"></i><span class="ms-4">Download App</span></a>
-                            </div>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#"><i class="fa-solid fa-bell text-primary"></i><span
+                                            class="ms-4">Notification
+                                            Preference</span></a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#"><i
+                                            class="fa-solid fa-clipboard-question text-primary"></i><span
+                                            class="ms-4">24x7 Customer Care</span></a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#"><i
+                                            class="fa-solid fa-chart-line text-primary"></i><span
+                                            class="ms-4">Advertise</span></a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#"><i
+                                            class="fa-solid fa-download text-primary"></i><span class="ms-4">Download
+                                            App</span></a></li>
+                            </ul>
                         </li>
-                        <li class="nav-item ms-5">
-                            <a class="nav-link text-white" href="#"><i class="fa-solid fa-cart-shopping"></i>Cart</a>
+                        <li class="nav-item mt-2 align-items-center">
+                            <a class="nav-link text-white ms-4" href="#" tabindex="-1" aria-disabled="true"><i
+                                class="fa-solid fa-cart-shopping"></i>Cart</a>
                         </li>
                     </ul>
+                   
                 </div>
-            </nav>
-
-
-        </div>
+            </div>
+        </nav>
     </header>
 
 
